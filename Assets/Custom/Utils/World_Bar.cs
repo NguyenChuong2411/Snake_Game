@@ -15,6 +15,7 @@ namespace Custom.Utils {
             return (int)(baseSortingOrder - position.y) + offset;
         }
 
+        //Outline: the area
         public class Outline {
             public float size = 1f;
             public Color color = Color.black;
